@@ -18,7 +18,7 @@ def 자산(request):
     return render(request,'../templates/마이_개인자산상태.html')
 
 def 적금카드(request):
-    return render(request,'../templates/마이_적금카드상품확인.html')
+    return render(request,'../templates/적금카드.html')
 
 def my(request):
     return render(request,'../templates/마이페이지.html')
